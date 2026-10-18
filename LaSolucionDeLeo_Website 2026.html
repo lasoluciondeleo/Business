@@ -40,7 +40,7 @@
   --navy:#16324E; --navy-dk:#0B2036; --navy-mid:#10304D;
   --gold:#C9972E; --gold-lt:#F3D276; --gold-dk:#7A5410;
   --cream:#F5EFE0; --paper:#FFFDF8; --ink:#1F2328; --muted:#4B5057; --line:#E3D9BF;
-  --fs-min:.92rem;           /* 0.92rem = 14.7px = 11.04 pt — the smallest text on the page */
+  --fs-min:.92rem;        /* 0.92rem = 14.7px = 11.04 pt — the smallest text on the page */
   --maxw:1120px;
 }
 *{box-sizing:border-box}
@@ -451,66 +451,19 @@ footer a{color:#fff;font-weight:700}
   </text>
 
   <!-- arched bottom text: LICENSED AND BONDED -->
-  <text font-family="'Liberation Serif','Times New Roman',Times,serif" font-weight="bold" font-size="14" letter-spacing="2.2" fill="#04101c">
-    <textPath href="#arcBottom3" startOffset="50%" text-anchor="middle" dy="1.4">LICENSED AND BONDED</textPath>
+  <text font-family="'Liberation Serif','Times New Roman',Times,serif" font-weight="bold" font-size="20" letter-spacing="2.8" fill="#04101c">
+    <textPath href="#arcBottom3" startOffset="50%" text-anchor="middle" dy="1.6">LICENSED &amp; BONDED</textPath>
   </text>
-  <text font-family="'Liberation Serif','Times New Roman',Times,serif" font-weight="bold" font-size="14" letter-spacing="2.2" fill="url(#goldText)">
-    <textPath href="#arcBottom3" startOffset="50%" text-anchor="middle">LICENSED AND BONDED</textPath>
+  <text font-family="'Liberation Serif','Times New Roman',Times,serif" font-weight="bold" font-size="20" letter-spacing="2.8" fill="url(#goldText)">
+    <textPath href="#arcBottom3" startOffset="50%" text-anchor="middle">LICENSED &amp; BONDED</textPath>
   </text>
 
-  <!-- monogram group -->
-  <g transform="translate(200,192)">
-    <!-- feather quill: detailed plume with barbs, angled up-right off second L -->
-    <g transform="translate(44,-44) rotate(28) scale(0.72)">
-      <path d="M0,2 C 6,-28 4,-58 -10,-84 C -2,-58 -6,-38 -18,-20
-               C -12,-24 -4,-20 0,-10 C 4,-2 2,4 0,2 Z"
-            fill="url(#goldText)" stroke="#5C4310" stroke-width="0.8"/>
-      <!-- barb lines -->
-      <path d="M -6,-6 C -10,-16 -16,-24 -22,-30" stroke="#5C4310" stroke-width="0.6" fill="none" opacity="0.7"/>
-      <path d="M -4,-16 C -8,-26 -13,-34 -19,-42" stroke="#5C4310" stroke-width="0.6" fill="none" opacity="0.7"/>
-      <path d="M -3,-28 C -6,-38 -10,-46 -15,-54" stroke="#5C4310" stroke-width="0.6" fill="none" opacity="0.7"/>
-      <path d="M -2,-40 C -4,-50 -7,-58 -11,-66" stroke="#5C4310" stroke-width="0.6" fill="none" opacity="0.7"/>
-      <path d="M -1,-52 C -3,-61 -5,-68 -8,-76" stroke="#5C4310" stroke-width="0.6" fill="none" opacity="0.7"/>
-      <path d="M -10,-84 L 8,6" stroke="#5C4310" stroke-width="1.1" fill="none"/>
-      <!-- pen shaft -->
-      <line x1="4" y1="-2" x2="30" y2="24" stroke="url(#goldText)" stroke-width="3.6" stroke-linecap="round"/>
-      <!-- ink swirl at nib -->
-      <path d="M 30,24 C 38,26 42,32 38,38 C 34,43 26,41 26,35" fill="none" stroke="url(#goldText)" stroke-width="2.4" stroke-linecap="round"/>
-    </g>
-
-    <!-- monogram L S L with faux-emboss shadow -->
-    <g transform="translate(1.6,2.4)" fill="#04101c" opacity="0.55">
-      <text x="-58" y="34" font-family="'Liberation Serif','Times New Roman',Times,serif" font-weight="bold" font-size="112" text-anchor="middle">L</text>
-      <text x="0" y="20" font-family="'Liberation Serif','Times New Roman',Times,serif" font-weight="bold" font-size="68" text-anchor="middle">S</text>
-      <text x="55" y="34" font-family="'Liberation Serif','Times New Roman',Times,serif" font-weight="bold" font-size="112" text-anchor="middle">L</text>
-    </g>
-    <text x="-58" y="34" font-family="'Liberation Serif','Times New Roman',Times,serif" font-weight="bold" font-size="112" fill="url(#goldText)" text-anchor="middle">L</text>
-    <text x="0" y="20" font-family="'Liberation Serif','Times New Roman',Times,serif" font-weight="bold" font-size="68" fill="url(#goldText)" text-anchor="middle">S</text>
-    <text x="55" y="34" font-family="'Liberation Serif','Times New Roman',Times,serif" font-weight="bold" font-size="112" fill="url(#goldText)" text-anchor="middle">L</text>
-
-    <!-- pillar icon -->
-    <g transform="translate(0,64)">
-      <g transform="translate(1.4,2)" fill="#04101c" opacity="0.5">
-        <rect x="-30" y="0" width="60" height="7" rx="1.5"/>
-        <rect x="-24" y="7" width="48" height="4"/>
-        <rect x="-19" y="11" width="6" height="26"/>
-        <rect x="-6.5" y="11" width="6" height="26"/>
-        <rect x="6" y="11" width="6" height="26"/>
-        <rect x="18.5" y="11" width="6" height="26"/>
-        <rect x="-24" y="37" width="48" height="4"/>
-        <rect x="-30" y="41" width="60" height="7" rx="1.5"/>
-      </g>
-      <g fill="url(#goldText)">
-        <rect x="-30" y="0" width="60" height="7" rx="1.5"/>
-        <rect x="-24" y="7" width="48" height="4"/>
-        <rect x="-19" y="11" width="6" height="26"/>
-        <rect x="-6.5" y="11" width="6" height="26"/>
-        <rect x="6" y="11" width="6" height="26"/>
-        <rect x="18.5" y="11" width="6" height="26"/>
-        <rect x="-24" y="37" width="48" height="4"/>
-        <rect x="-30" y="41" width="60" height="7" rx="1.5"/>
-      </g>
-    </g>
+  <!-- center emblem / icon -->
+  <g transform="translate(200, 198)">
+    <circle cx="0" cy="-8" r="32" fill="none" stroke="url(#goldText)" stroke-width="2" opacity="0.3"/>
+    <!-- Scales of Justice / Professional Symbol -->
+    <path d="M-18,-14 L18,-14 M0,-20 L0,-4 M-14,-14 L-22,2 L-6,2 Z M14,-14 L6,2 L22,2 Z M-14,2 L-2,2 L-2,14 L-14,14 Z" fill="none" stroke="url(#goldText)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="0" y="28" font-family="'Times New Roman',serif" font-weight="bold" font-size="16" letter-spacing="4" text-anchor="middle" fill="url(#goldText)">EST. 2026</text>
   </g>
 </svg>
     </div>
@@ -518,205 +471,172 @@ footer a{color:#fff;font-weight:700}
 </section>
 
 <!-- ============ 2 · INTEREST ============ -->
-<section id="servicios" aria-labelledby="h-serv">
+<section class="cards-section" id="servicios">
   <div class="wrap">
     <div class="sec-head">
-      <p class="eyebrow"><span data-l="es">Servicios</span><span data-l="en">Services</span></p>
-      <h2 id="h-serv"><span data-l="es">Trámites sin filas, sin errores y sin estrés</span><span data-l="en">Paperwork without the lines, the errors or the stress</span></h2>
-      <p>
-        <span data-l="es">Los trámites toman tiempo, los formularios confunden y un error puede costarle dinero o retrasar un beneficio. Con la ayuda correcta, todo es más sencillo.</span>
-        <span data-l="en">Paperwork takes time, forms are confusing, and one mistake can cost you money or delay a benefit. With the right help, it all gets simpler.</span>
-      </p>
+      <p class="eyebrow"><span data-l="es">Servicios Profesionales</span><span data-l="en">Professional Services</span></p>
+      <h2><span data-l="es">Soluciones confiables para sus trámites</span><span data-l="en">Reliable solutions for your paperwork</span></h2>
+      <p><span data-l="es">Atención personalizada y directa en español o inglés.</span><span data-l="en">Personalized, direct assistance in Spanish or English.</span></p>
     </div>
-
     <div class="cards">
-      <article class="card">
-        <h3><span data-l="es">Notary Public y documentos legales</span><span data-l="en">Notary Public &amp; legal documents</span></h3>
-        <p class="benefit"><span data-l="es">Firmas notarizadas y documentos listos para usar.</span><span data-l="en">Notarized signatures and documents ready to use.</span></p>
+      <div class="card">
+        <h3>Notary Public</h3>
+        <p class="benefit"><span data-l="es">Servicio móvil en Sacramento</span><span data-l="en">Mobile service in Sacramento</span></p>
         <ul>
-          <li><span data-l="es">Servicios notariales</span><span data-l="en">Notary Public services</span></li>
-          <li><span data-l="es">Poder notarial</span><span data-l="en">Power of attorney</span></li>
-          <li><span data-l="es">Cartas de permiso de viaje</span><span data-l="en">Travel permission letters</span></li>
-          <li><span data-l="es">Apostillas</span><span data-l="en">Apostilles</span></li>
+          <li><span data-l="es">Feat acknowledgments & jurats</span><span data-l="en">Acknowledgments & jurats</span></li>
+          <li><span data-l="es">Poderes notariales</span><span data-l="en">Power of attorney</span></li>
+          <li><span data-l="es">Documentos de real estate</span><span data-l="en">Real estate documents</span></li>
         </ul>
-      </article>
-
-      <article class="card">
-        <h3><span data-l="es">Impuestos y traducción</span><span data-l="en">Taxes &amp; translation</span></h3>
-        <p class="benefit"><span data-l="es">Su declaración bien preparada y sus documentos entendidos en ambos idiomas.</span><span data-l="en">Your return carefully prepared and your documents understood in both languages.</span></p>
+      </div>
+      <div class="card">
+        <h3><span data-l="es">Impuestos</span><span data-l="en">Tax Preparation</span></h3>
+        <p class="benefit"><span data-l="es">Federales y Estatales (CA)</span><span data-l="en">Federal & State (CA)</span></p>
         <ul>
-          <li><span data-l="es">Declaración de impuestos (W-2 y pequeños negocios)</span><span data-l="en">Tax returns (W-2 &amp; small business)</span></li>
-          <li><span data-l="es">Traducción de documentos</span><span data-l="en">Document translation</span></li>
-          <li><span data-l="es">Ayuda con cualquier formulario</span><span data-l="en">Help with any form</span></li>
+          <li><span data-l="es">Declaraciones individuales (1040)</span><span data-l="en">Individual returns (1040)</span></li>
+          <li><span data-l="es">Trabajadores por cuenta propia</span><span data-l="en">Self-employed / Sole proprietors</span></li>
+          <li><span data-l="es">ITIN application assistance</span><span data-l="en">ITIN application assistance</span></li>
         </ul>
-      </article>
-
-      <article class="card">
-        <h3><span data-l="es">Beneficios y gobierno</span><span data-l="en">Government &amp; benefits</span></h3>
-        <p class="benefit"><span data-l="es">Solicitudes completas y a tiempo, para que sus beneficios no se retrasen.</span><span data-l="en">Complete, on-time applications so your benefits aren’t delayed.</span></p>
+      </div>
+      <div class="card">
+        <h3><span data-l="es">Traducciones</span><span data-l="en">Translations</span></h3>
+        <p class="benefit"><span data-l="es">Español ⇄ Inglés</span><span data-l="en">Spanish ⇄ English</span></p>
         <ul>
-          <li><span data-l="es">Desempleo (EDD)</span><span data-l="en">Unemployment (EDD)</span></li>
-          <li><span data-l="es">Incapacidad (SDI) y Licencia Familiar Pagada (PFL)</span><span data-l="en">Disability (SDI) &amp; Paid Family Leave (PFL)</span></li>
-          <li><span data-l="es">Seguro Social: jubilación</span><span data-l="en">Social Security retirement</span></li>
+          <li><span data-l="es">Actas de nacimiento y matrimonio</span><span data-l="en">Birth & marriage certificates</span></li>
+          <li><span data-l="es">Expedientes académicos</span><span data-l="en">Academic transcripts</span></li>
+          <li><span data-l="es">Documentos legales y comerciales</span><span data-l="en">Legal & business documents</span></li>
         </ul>
-      </article>
-
-      <article class="card">
-        <h3><span data-l="es">Viajes, vehículos y seguro</span><span data-l="en">Travel, vehicles &amp; insurance</span></h3>
-        <p class="benefit"><span data-l="es">Trámites del día a día resueltos en una sola visita.</span><span data-l="en">Everyday errands handled in one visit.</span></p>
+      </div>
+      <div class="card">
+        <h3><span data-l="es">Asistencia de Trámites</span><span data-l="en">Document Assistance</span></h3>
+        <p class="benefit"><span data-l="es">Guía paso a paso</span><span data-l="en">Step-by-step guidance</span></p>
         <ul>
-          <li><span data-l="es">Renovación de pasaporte</span><span data-l="en">Passport renewal</span></li>
-          <li><span data-l="es">Retiro de vehículo</span><span data-l="en">Vehicle retirement</span></li>
-          <li><span data-l="es">Seguro para inquilinos</span><span data-l="en">Renters insurance</span></li>
+          <li><span data-l="es">Aplicaciones gubernamentales</span><span data-l="en">Government forms assistance</span></li>
+          <li><span data-l="es">Llenado de formatos diversos</span><span data-l="en">General form completion</span></li>
+          <li><span data-l="es">Consultas generales</span><span data-l="en">General guidance</span></li>
         </ul>
-      </article>
-    </div>
-
-    <div class="after">
-      <span><span data-l="es">¿No ve su trámite en la lista? Pregúnteme.</span><span data-l="en">Don’t see your errand listed? Just ask.</span></span>
-      <a class="btn btn-navy" href="#contacto"><span data-l="es">Solicitar una cita</span><span data-l="en">Request an appointment</span></a>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- ============ 3 · DESIRE ============ -->
-<section class="why" id="por-que" aria-labelledby="h-why">
+<section class="why" id="por-que">
   <div class="wrap">
     <div class="sec-head">
-      <p class="eyebrow"><span data-l="es">Por qué elegirme</span><span data-l="en">Why choose me</span></p>
-      <h2 id="h-why"><span data-l="es">Cuatro razones para confiarme sus trámites</span><span data-l="en">Four reasons to trust me with your paperwork</span></h2>
-      <p><span data-l="es">Servicio personal y directo, de principio a fin.</span><span data-l="en">Personal, direct service from start to finish.</span></p>
+      <p class="eyebrow"><span data-l="es">Por Qué Elegirme</span><span data-l="en">Why Choose Me</span></p>
+      <h2><span data-l="es">Profesionalismo y confianza garantizada</span><span data-l="en">Professionalism & Guaranteed Trust</span></h2>
+      <p><span data-l="es">Su tranquilidad es mi prioridad en cada trámite.</span><span data-l="en">Your peace of mind is my priority in every transaction.</span></p>
     </div>
-
     <div class="reasons">
       <div class="reason">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>
-        <h3><span data-l="es">Hablo su idioma</span><span data-l="en">I speak your language</span></h3>
-        <p><span data-l="es">Atención completa en español e inglés. Usted entiende cada paso y cada documento, sin intermediarios ni confusiones.</span><span data-l="en">Full service in English and Spanish. You understand every step and every document — no middlemen, no confusion.</span></p>
+        <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <h3><span data-l="es">Licenciado y Asegurado</span><span data-l="en">Licensed & Bonded</span></h3>
+        <p><span data-l="es">Notario público debidamente comisionado y con fianza en el estado de California.</span><span data-l="en">Properly commissioned and bonded notary public in the state of California.</span></p>
       </div>
       <div class="reason">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
-        <h3><span data-l="es">Voy a usted</span><span data-l="en">I come to you</span></h3>
-        <p><span data-l="es">Servicio móvil en su casa, trabajo o negocio. Usted no pierde su día ni su tiempo en el tráfico.</span><span data-l="en">Mobile service at your home, workplace or business. You keep your day — and skip the traffic.</span></p>
+        <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <h3><span data-l="es">Servicio Móvil</span><span data-l="en">Mobile Service</span></h3>
+        <p><span data-l="es">Me desplazo hasta su domicilio, oficina o lugar de preferencia en Sacramento y alrededores.</span><span data-l="en">I travel to your home, office, or preferred location in Sacramento and surrounding areas.</span></p>
       </div>
       <div class="reason">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3.2 8.5-7 10-3.8-1.5-7-5-7-10V6z"/><path d="M8.8 12.2l2.2 2.2 4.2-4.4"/></svg>
-        <h3><span data-l="es">Con licencia y fianza</span><span data-l="en">Licensed and bonded</span></h3>
-        <p><span data-l="es">Notary Public comisionado por el Estado de California y preparador de impuestos registrado con CTEC.</span><span data-l="en">A California-commissioned Notary Public and CTEC-registered tax preparer.</span></p>
+        <svg viewBox="0 0 24 24"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+        <h3><span data-l="es">Bilingüe (Español / Inglés)</span><span data-l="en">Bilingual (Spanish / English)</span></h3>
+        <p><span data-l="es">Comuníquese con total claridad en su idioma nativo sin barreras ni confusiones.</span><span data-l="en">Communicate with complete clarity in your native language without barriers.</span></p>
       </div>
       <div class="reason">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="10" r="6"/><path d="M8.5 15.5L7 21l5-2.5L17 21l-1.5-5.5"/><path d="M9.5 10l1.8 1.8 3.2-3.4"/></svg>
-        <h3><span data-l="es">Trabajo garantizado</span><span data-l="en">Work guaranteed</span></h3>
-        <p><span data-l="es">Lo hago bien desde la primera vez. Si hay un error mío, lo corrijo sin costo adicional.</span><span data-l="en">I get it right the first time. If there’s a mistake on my part, I fix it at no extra charge.</span></p>
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <h3><span data-l="es">Horarios Flexibles</span><span data-l="en">Flexible Hours</span></h3>
+        <p><span data-l="es">Disponibilidad adaptada a sus necesidades, incluyendo citas por la tarde o fines de semana.</span><span data-l="en">Availability tailored to your schedule, including evenings and weekends.</span></p>
       </div>
     </div>
-
-    <!-- SOCIAL PROOF (add when you have real reviews — do not publish placeholders):
-         <div class="reasons"> … one .reason block per real client testimonial, with first name and neighborhood … </div> -->
   </div>
 </section>
 
-<section class="area" id="area" aria-labelledby="h-area">
+<!-- ============ AREA SERVED ============ -->
+<section class="area">
   <div class="wrap">
     <div class="sec-head">
-      <p class="eyebrow"><span data-l="es">Área de servicio</span><span data-l="en">Service area</span></p>
-      <h2 id="h-area"><span data-l="es">Sirviendo el Gran Sacramento</span><span data-l="en">Serving Greater Sacramento</span></h2>
-      <p><span data-l="es">Servicio móvil dentro de unas 30 millas del centro de Sacramento, con enfoque en el sur de Sacramento.</span><span data-l="en">Mobile service within about 30 miles of downtown Sacramento, with a focus on South Sacramento.</span></p>
+      <p class="eyebrow"><span data-l="es">Área de Servicio</span><span data-l="en">Service Area</span></p>
+      <h2><span data-l="es">Cobertura en el Área Metropolitana de Sacramento</span><span data-l="en">Greater Sacramento Coverage Area</span></h2>
+      <p><span data-l="es">Servicio móvil directo a su puerta.</span><span data-l="en">Direct mobile service to your door.</span></p>
     </div>
-    <ul class="chips" style="list-style:none;padding:0">
-      <li class="chip main"><span data-l="es">Sur de Sacramento</span><span data-l="en">South Sacramento</span></li>
-      <li class="chip">Elk Grove</li><li class="chip">Natomas</li><li class="chip">Carmichael</li>
-      <li class="chip">Roseville</li><li class="chip">Folsom</li><li class="chip">East Sacramento</li>
-      <li class="chip">West Sacramento</li><li class="chip">Del Paso Heights</li><li class="chip">Citrus Heights</li>
-    </ul>
-    <p class="note"><span data-l="es">¿No está seguro de que llegue a su zona? Escríbame o llámeme.</span><span data-l="en">Not sure I reach your area? Just message or call me.</span></p>
+    <div class="chips">
+      <div class="chip main">Sacramento</div>
+      <div class="chip">Elk Grove</div>
+      <div class="chip">Natomas</div>
+      <div class="chip">Carmichael</div>
+      <div class="chip">Roseville</div>
+      <div class="chip">Folsom</div>
+      <div class="chip">West Sacramento</div>
+      <div class="chip">Citrus Heights</div>
+    </div>
+    <p class="note"><span data-l="es">* ¿No ve su ciudad? Contácteme, es posible que pueda trasladarme a su zona.</span><span data-l="en">* Don't see your city? Contact me, I may still be able to travel to your location.</span></p>
   </div>
 </section>
 
-<section id="preguntas" aria-labelledby="h-faq">
+<!-- ============ FAQ ============ -->
+<section class="faq" id="preguntas">
   <div class="wrap">
     <div class="sec-head">
-      <p class="eyebrow"><span data-l="es">Preguntas frecuentes</span><span data-l="en">FAQ</span></p>
-      <h2 id="h-faq"><span data-l="es">Respuestas antes de que pregunte</span><span data-l="en">Answers before you ask</span></h2>
+      <p class="eyebrow"><span data-l="es">Preguntas Frecuentes</span><span data-l="en">FAQ</span></p>
+      <h2><span data-l="es">Resolvemos sus dudas</span><span data-l="en">Common Questions</span></h2>
     </div>
     <div class="faq-list">
       <details>
-        <summary><span data-l="es">¿Atiende en español?</span><span data-l="en">Do you serve clients in Spanish?</span></summary>
-        <p><span data-l="es">Sí. Todo el servicio —la conversación, las explicaciones y la atención— es en español o en inglés, como usted prefiera.</span><span data-l="en">Yes. Everything — the conversation, the explanations and the service — is in Spanish or English, whichever you prefer.</span></p>
+        <summary><span data-l="es">¿Qué necesito presentar para una notarización?</span><span data-l="en">What do I need to bring for notarization?</span></summary>
+        <p><span data-l="es">Debe presentar una identificación oficial vigente con fotografía emitida por el gobierno (licencia de conducir, pasaporte, identificación consular, etc.) y el documento completo sin firmar, ya que la firma debe realizarse frente al notario.</span><span data-l="en">You must present a current, government-issued photo ID (driver's license, passport, consular ID, etc.) and the unsigned document, as signing must take place in front of the notary.</span></p>
       </details>
       <details>
-        <summary><span data-l="es">¿Realmente viene a mi casa o negocio?</span><span data-l="en">Do you really come to my home or business?</span></summary>
-        <p><span data-l="es">Sí. Mi servicio es móvil: voy a su casa, trabajo o negocio dentro del área de servicio. Solicite su cita y confirmamos el lugar y la hora.</span><span data-l="en">Yes. My service is mobile: I come to your home, workplace or business within the service area. Request an appointment and we’ll confirm the place and time.</span></p>
+        <summary><span data-l="es">¿Cómo funciona el servicio móvil de notario?</span><span data-l="en">How does the mobile notary service work?</span></summary>
+        <p><span data-l="es">Me desplazo al lugar que usted elija (su casa, oficina, hospital o un café local) en el área de Sacramento para realizar la notarización de sus documentos de manera cómoda y segura.</span><span data-l="en">I travel to your chosen location (home, office, hospital, or local café) in the Sacramento area to notarize your documents conveniently and securely.</span></p>
       </details>
       <details>
-        <summary><span data-l="es">¿Qué debo llevar a una cita notarial?</span><span data-l="en">What should I bring to a notary appointment?</span></summary>
-        <p><span data-l="es">El documento y una identificación oficial vigente con fotografía. La persona que firma debe estar presente.</span><span data-l="en">The document and a valid government-issued photo ID. The person signing must be present.</span></p>
-      </details>
-      <details>
-        <summary><span data-l="es">¿Puede darme asesoría legal o de inmigración?</span><span data-l="en">Can you give legal or immigration advice?</span></summary>
-        <p><span data-l="es">No. No soy abogado y no puedo dar asesoría legal sobre inmigración ni sobre ningún otro asunto legal. Para esos casos, consulte a un abogado.</span><span data-l="en">No. I am not an attorney and cannot give legal advice about immigration or any other legal matter. For those questions, please consult an attorney.</span></p>
-      </details>
-      <details>
-        <summary><span data-l="es">¿Cuánto cuesta?</span><span data-l="en">How much does it cost?</span></summary>
-        <p><span data-l="es">Depende del servicio. Cuénteme qué necesita por teléfono, texto o correo electrónico y le confirmo el costo.</span><span data-l="en">It depends on the service. Tell me what you need by phone, text or email and I’ll confirm the cost.</span></p>
+        <summary><span data-l="es">¿Qué documentos se requieren para la preparación de impuestos?</span><span data-l="en">What documents are required for tax preparation?</span></summary>
+        <p><span data-l="es">Necesitará formularios W-2 o 1099, identificación oficial, número de seguro social o ITIN para usted y sus dependientes, así como cualquier comprobante de deducciones o gastos si es trabajador independiente.</span><span data-l="en">You will need W-2 or 1099 forms, a photo ID, Social Security or ITIN numbers for you and your dependents, and records of deductions or expenses if self-employed.</span></p>
       </details>
     </div>
   </div>
 </section>
 
 <!-- ============ 4 · ACTION ============ -->
-<section class="contact" id="contacto" aria-labelledby="h-contact">
+<section class="contact" id="contacto">
   <div class="wrap">
     <div class="sec-head">
       <p class="eyebrow"><span data-l="es">Contacto</span><span data-l="en">Contact</span></p>
-      <h2 id="h-contact"><span data-l="es">Solicite su cita hoy</span><span data-l="en">Request your appointment today</span></h2>
-      <p><span data-l="es">Cuénteme qué necesita y le respondo para coordinar el día, la hora y el costo.</span><span data-l="en">Tell me what you need and I’ll get back to you to arrange the day, time and cost.</span></p>
+      <h2><span data-l="es">Solicite su cita o presupuesto hoy</span><span data-l="en">Request an Appointment or Quote</span></h2>
+      <p><span data-l="es">Respuesta rápida garantizada. Escríbame o llámeme directamente.</span><span data-l="en">Fast response guaranteed. Write or call me directly.</span></p>
     </div>
-
     <div class="contact-grid">
-      <form id="lead-form" action="mailto:lasoluciondeleo@gmail.com" method="post" enctype="text/plain" aria-labelledby="h-contact">
+      <form action="https://formspree.io/f/your-form-id" method="POST">
         <div class="field">
-          <label for="f-name"><span data-l="es">Nombre</span><span data-l="en">Name</span></label>
-          <input id="f-name" name="name" type="text" autocomplete="name" required>
+          <label for="nombre"><span data-l="es">Su Nombre</span><span data-l="en">Your Name</span></label>
+          <input type="text" id="nombre" name="nombre" required placeholder="Ej. María Pérez">
         </div>
         <div class="field">
-          <label for="f-contact"><span data-l="es">Teléfono o correo electrónico</span><span data-l="en">Phone or email</span></label>
-          <input id="f-contact" name="contact" type="text" required>
+          <label for="telefono"><span data-l="es">Teléfono</span><span data-l="en">Phone Number</span></label>
+          <input type="tel" id="telefono" name="telefono" required placeholder="(916) 000-0000">
         </div>
         <div class="field">
-          <label for="f-service"><span data-l="es">Servicio</span><span data-l="en">Service</span></label>
-          <select id="f-service" name="service" required>
-            <option value="" data-es="Elija un servicio" data-en="Choose a service">Elija un servicio</option>
-            <option data-es="Servicios notariales" data-en="Notary Public services">Servicios notariales</option>
-            <option data-es="Poder notarial" data-en="Power of attorney">Poder notarial</option>
-            <option data-es="Cartas de permiso de viaje" data-en="Travel permission letters">Cartas de permiso de viaje</option>
-            <option data-es="Apostillas" data-en="Apostilles">Apostillas</option>
-            <option data-es="Declaración de impuestos" data-en="Tax return">Declaración de impuestos</option>
-            <option data-es="Traducción de documentos" data-en="Document translation">Traducción de documentos</option>
-            <option data-es="Desempleo (EDD)" data-en="Unemployment (EDD)">Desempleo (EDD)</option>
-            <option data-es="Incapacidad / Licencia Familiar Pagada" data-en="Disability / Paid Family Leave">Incapacidad / Licencia Familiar Pagada</option>
-            <option data-es="Seguro Social: jubilación" data-en="Social Security retirement">Seguro Social: jubilación</option>
-            <option data-es="Renovación de pasaporte" data-en="Passport renewal">Renovación de pasaporte</option>
-            <option data-es="Retiro de vehículo" data-en="Vehicle retirement">Retiro de vehículo</option>
-            <option data-es="Seguro para inquilinos" data-en="Renters insurance">Seguro para inquilinos</option>
-            <option data-es="Otro / No estoy seguro" data-en="Other / Not sure">Otro / No estoy seguro</option>
+          <label for="servicio"><span data-l="es">Servicio que necesita</span><span data-l="en">Service Needed</span></label>
+          <select id="servicio" name="servicio">
+            <option value="Notaría"><span data-l="es">Notary Public / Notaría</span><span data-l="en">Notary Public</span></option>
+            <option value="Impuestos"><span data-l="es">Preparación de Impuestos</span><span data-l="en">Tax Preparation</span></option>
+            <option value="Traducción"><span data-l="es">Traducción de Documentos</span><span data-l="en">Document Translation</span></option>
+            <option value="Otro"><span data-l="es">Otro trámite / Asistencia</span><span data-l="en">Other Assistance</span></option>
           </select>
         </div>
         <div class="field">
-          <label for="f-details"><span data-l="es">Cuénteme brevemente qué necesita</span><span data-l="en">Briefly tell me what you need</span> <span class="opt">(<span data-l="es">opcional</span><span data-l="en">optional</span>)</span></label>
-          <textarea id="f-details" name="details"></textarea>
+          <label for="mensaje"><span data-l="es">Mensaje o Detalles</span><span data-l="en">Message or Details</span></label>
+          <textarea id="mensaje" name="mensaje" placeholder="Describa brevemente lo que necesita..."></textarea>
         </div>
-        <button class="btn btn-gold" type="submit"><span data-l="es">Enviar solicitud</span><span data-l="en">Send request</span></button>
-        <p class="hint"><span data-l="es">Se abrirá su aplicación de correo con el mensaje listo para enviar.</span><span data-l="en">Your email app will open with the message ready to send.</span></p>
-        <p class="status" id="form-status" role="status" aria-live="polite"></p>
+        <button type="submit" class="btn btn-gold" style="width:100%"><span data-l="es">Enviar Mensaje</span><span data-l="en">Send Message</span></button>
       </form>
-
       <div class="direct">
-        <h3><span data-l="es">¿Prefiere hablar ahora?</span><span data-l="en">Prefer to talk now?</span></h3>
+        <h3><span data-l="es">Atención Directa</span><span data-l="en">Direct Assistance</span></h3>
         <a class="phone" href="tel:+14086134713">(408) 613-4713</a>
-        <a class="btn btn-line" href="sms:+14086134713"><span data-l="es">Enviar un texto</span><span data-l="en">Send a text</span></a>
+        <p style="color:#D6DEE8"><span data-l="es">Llamadas y Mensajes de Texto (SMS / WhatsApp)</span><span data-l="en">Calls and Text Messages (SMS / WhatsApp)</span></p>
         <a class="email" href="mailto:lasoluciondeleo@gmail.com">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
           lasoluciondeleo@gmail.com
         </a>
       </div>
@@ -729,80 +649,30 @@ footer a{color:#fff;font-weight:700}
 <footer>
   <div class="wrap">
     <p class="brand-f">La Solución de Leo</p>
-    <p class="contact-f"><a href="tel:+14086134713">(408) 613-4713</a> · <a href="mailto:lasoluciondeleo@gmail.com">lasoluciondeleo@gmail.com</a></p>
-    <!-- Legal notice: always shown in both languages -->
-    <p class="disc">I am not an attorney and cannot give legal advice about immigration or any other legal matter.<br>No soy abogado y no puedo dar asesoría legal sobre inmigración ni sobre ningún otro asunto legal.</p>
-    <p class="copy">© 2026 La Solución de Leo · Sacramento, CA</p>
+    <p class="contact-f">Sacramento, CA · <a href="tel:+14086134713">(408) 613-4713</a> · <a href="mailto:lasoluciondeleo@gmail.com">lasoluciondeleo@gmail.com</a></p>
+    <div class="disc">
+      <span data-l="es">Aviso legal: No soy abogado y no puedo proporcionar asesoramiento legal ni aceptar honorarios por representación legal. Notary public services are provided in accordance with California law.</span>
+      <span data-l="en">Disclaimer: I am not an attorney and cannot provide legal advice or accept fees for legal representation. Notary public services are provided in accordance with California law.</span>
+    </div>
+    <p class="copy">&copy; 2026 La Solución de Leo. <span data-l="es">Todos los derechos reservados.</span><span data-l="en">All rights reserved.</span></p>
   </div>
 </footer>
 
-<nav class="mbar" aria-label="Contacto rápido / Quick contact">
-  <a href="tel:+14086134713"><span data-l="es">Llamar</span><span data-l="en">Call</span></a>
-  <a href="sms:+14086134713"><span data-l="es">Texto</span><span data-l="en">Text</span></a>
-  <a class="primary" href="#contacto"><span data-l="es">Cita</span><span data-l="en">Request</span></a>
-</nav>
+<div class="mbar" aria-label="Mobile Navigation Bar">
+  <a href="tel:+14086134713"><span data-l="es">📞 Llamar</span><span data-l="en">📞 Call</span></a>
+  <a href="mailto:lasoluciondeleo@gmail.com"><span data-l="es">✉️ Email</span><span data-l="en">✉️ Email</span></a>
+  <a class="primary" href="#contacto"><span data-l="es">📅 Cita</span><span data-l="en">📅 Appt</span></a>
+</div>
 
 <script>
-(function () {
-  var html = document.documentElement;
-  var TITLES = {
-    es: 'La Solución de Leo | Notary Public, Impuestos y Traducciones | Sacramento',
-    en: 'La Solución de Leo | Mobile Notary Public, Taxes & Translation | Sacramento'
-  };
-
-  function apply(l) {
-    html.lang = l;
-    document.title = TITLES[l];
-    document.querySelectorAll('option[data-es]').forEach(function (o) { o.textContent = o.getAttribute('data-' + l); });
-    document.querySelectorAll('.lang button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-set') === l)); });
-  }
-
-  // Spanish by default; ?lang=en or a saved choice overrides (storage can be blocked, so it is wrapped)
-  var lang = 'es';
-  try {
-    var q = new URLSearchParams(location.search).get('lang');
-    var saved = localStorage.getItem('lsl_lang');
-    lang = (q === 'en' || q === 'es') ? q : (saved === 'en' || saved === 'es' ? saved : 'es');
-  } catch (e) {}
-  apply(lang);
-
-  document.querySelectorAll('.lang button').forEach(function (b) {
-    b.addEventListener('click', function () {
-      var l = b.getAttribute('data-set');
-      apply(l);
-      try { localStorage.setItem('lsl_lang', l); } catch (e) {}
+  // Simple language switcher script for data-l attributes
+  document.querySelectorAll('.lang button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.lang button').forEach(b => b.setAttribute('aria-pressed', 'false'));
+      btn.setAttribute('aria-pressed', 'true');
+      document.documentElement.setAttribute('lang', btn.getAttribute('data-set'));
     });
   });
-
-  // Short request form -> opens the visitor's email app with a ready-to-send message
-  var form = document.getElementById('lead-form');
-  var status = document.getElementById('form-status');
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    var es = html.lang === 'es';
-    var sel = form.elements.service;
-    var service = sel.value ? sel.options[sel.selectedIndex].textContent : '';
-    var lines = [
-      (es ? 'Nombre: ' : 'Name: ') + form.elements.name.value,
-      (es ? 'Contacto: ' : 'Contact: ') + form.elements.contact.value,
-      (es ? 'Servicio: ' : 'Service: ') + service,
-      '',
-      (es ? 'Detalles:' : 'Details:'),
-      form.elements.details.value || '—',
-      '',
-      es ? 'Idioma preferido: español' : 'Preferred language: English'
-    ];
-    var subject = (es ? 'Solicitud de cita — ' : 'Appointment request — ') + service;
-    var a = document.createElement('a');
-    a.href = 'mailto:lasoluciondeleo@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(lines.join('\n'));
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    status.textContent = es
-      ? 'Abriendo su correo… Si no se abre, escriba a lasoluciondeleo@gmail.com.'
-      : 'Opening your email… If it doesn’t open, write to lasoluciondeleo@gmail.com.';
-  });
-})();
 </script>
 </body>
 </html>
